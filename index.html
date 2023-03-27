@@ -1,13 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>HYP1_T1 &ndash; JavaScript Date Object</title>
-    <meta charset="utf-8">
-    <!-- TODO: Create your JavaScript file and include it here -->
+    <title>HYP1_T1 &ndash; DATUM & UHRZEIT</title>
+    <meta charset="UTF-8">
+    <script src="main.js"></script>
 </head>
-<body>
-<!-- TODO: Call functions for current day and current time (from the JS file) here -->
+<body onload="currentDay(); currentTime();">
+    <h1>DATUM & UHRZEIT</h1>
 
-<!-- TODO: Add links for time on page and refresh and call them using the javascript pseudo protocol -->
+    <h4>Today is:  </h4> 
+    <div id="date"></div>
+
+    <br>
+
+    <h4>The Time is: </h4>
+    <div id="time"></div>
+    <br>
+    
+   <a href="#" onclick="timeOnPage()">Zeit auf Seite</a>
+   <br>
+   <a href="#" onclick="refresh()">Neuladen der Seite</a>
+   <br>
 </body>
 </html>
